@@ -12,30 +12,30 @@ $paraText__size: 20px;
 }
 
 nav {
-      margin: 40px
-}
+      margin: 40px;
 
-nav ul {
-      list-style: none;
-}
+      ul {
+            list-style: none;
 
-nav ul li {
-      display: inline-block;
-}
+            li {
+                  display: inline-block;
 
-nav ul li a {
-      display: inline-block;
-      padding: 10px;
-      text-decoration: none;
-      margin: 0 10px;
-      background: transparent;
-      border-radius: 5px;
-      font-size: $paraText__size;
-      transition: all linear 0.3s;
-}
+                  a {
+                        display: inline-block;
+                        padding: 10px;
+                        text-decoration: none;
+                        margin: 0 10px;
+                        background: transparent;
+                        border-radius: 5px;
+                        font-size: $paraText__size;
+                        transition: all linear 0.3s;
+                  }
 
-nav ul li a:hover {
-      background: black;
-      color: white;
+                  a:hover {
+                        background: black;
+                        color: white;
 
+                  }
+            }
+      }
 }
