@@ -1,0 +1,9 @@
+{
+      "liveSassCompile.settings.autoprefix": [{
+                  "format": "compressed",
+                  "extensionName": ".css",
+                  "savePath": "/dist"
+            }
+
+      ]
+}
